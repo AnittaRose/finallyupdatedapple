@@ -1,0 +1,734 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container1{
+    
+    color:black;
+    font-size: 12px;
+    text-align: center;
+    padding: 18px;
+
+}
+span{
+    margin: 20px;
+}
+.image{
+    width: 16px;
+    margin-left: 5px;
+
+    
+}
+.Applelogo{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+#applelogo{
+    width: 20%;
+   
+    /* margin-top: 31px; */
+    text-align: center;
+   
+}
+.section-1{
+    display: flex;
+    /* overflow: auto; */
+    margin-top: 2em;
+    margin-left: 4em;
+}
+.section-12{
+    display: flex;
+    justify-content: space-evenly;
+}
+.image1{
+    width: 79px;
+    height: 52px;
+    
+    
+}
+.os{
+    margin-left: 2em;
+}
+.heading{
+    color:black;
+    font-size: 50px;
+}
+.heading{
+/* margin-left: 3em; */
+/* margin-left: 1em; */
+margin-top: 3em;
+width: 72em;
+font-size: 21px;
+text-align: center;
+background-color:white;
+box-shadow: 10px 14px 22px  black;
+margin-inline-start: auto;
+margin-inline-end: auto;
+}
+.firststore{
+    font-size: 56px;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+.secondstore{
+    color:black;
+    font-size: 35px;
+}
+.section-1{
+/* margin-left: 3em; */
+margin-left: 4em;
+margin-top: 1em;
+}
+.section-1{
+    display: flex;
+    overflow: auto;
+    margin-top: 3em;
+    margin-left: 2em;
+}
+.image2{
+    width: 25em;
+    height: 40em;
+    border-radius: 20px;
+    margin-left: 23px;
+}
+.section-2
+{
+    position: relative;
+}
+.hello1{
+    position: absolute;
+    color: aliceblue;
+    margin-left: 4em;
+    font-size: 19px;
+    margin-top: 2em;
+}
+.hello2{
+    position: absolute;
+    color: white;
+    margin-left: 2em;
+    font-size: 30px;
+    margin-top: 2em;
+   
+}
+.heading1{
+    color:black;
+    font-size: 80px;
+    margin-top: 3em;
+    margin-left: 2em;
+}
+video{
+    width: 90vw;
+    height: 90vh;
+    margin-top: 3em;
+    object-fit: fill;
+    overflow: hidden;
+    margin-left: 5em;
+    
+}
+.subheading{
+    color:black;
+    font-size: 40px;
+    margin-top: -2em;
+    margin-left: 27em;
+}
+.image2{
+    width: 25em;
+    height: 40em;
+    border-radius: 4em;
+    margin-left: 23px;
+}
+.image21{
+    width: 25em;
+    height: 40em;
+    border-radius: 4em;
+    margin-top: 3em;
+    margin-left: 1em;
+
+}
+.performance{
+    position: relative;
+}
+.performance1{
+    position: absolute;
+    color: aliceblue;
+    left: 2em;
+    font-size: 19px;
+    top: 4em;
+}
+.performance2{
+    position: absolute;
+    top: 5em;
+    left: 2em;
+    font-size: 23px;
+    color:white;
+
+}
+.performance3{
+    color: black;
+}
+.performance{
+    color: black;
+}
+.apps{
+    position: relative;
+}
+.apps1{
+    position: absolute;
+    color:black;
+    left: 2em;
+    font-size: 19px;
+    top: 4em;
+}
+.apps2{
+    position: absolute;
+    top: 5em;
+    left: 2em;
+    font-size: 23px;
+    color:black;
+
+}
+.apps{
+    color:black;
+}
+.apple1{
+    position: absolute;
+    color:white;
+    left: 2em;
+    font-size: 19px;
+    top: 4em;
+}
+.apple2{
+    position: absolute;
+    top: 5em;
+    left: 2em;
+    font-size: 23px;
+    color:white;
+
+}
+.apple{
+    color: white;
+    position: relative;
+}
+.durability1{
+    position: absolute;
+    color:black;
+    left: 2em;
+    font-size: 19px;
+    top: 4em;
+}
+.durability2{
+    position: absolute;
+    top: 5em;
+    left: 2em;
+    font-size: 23px;
+    color:black;
+
+}
+.durability{
+    color: black;
+    position: relative;
+}
+.applevalues1{
+    position: absolute;
+    color:black;
+    left: 2em;
+    font-size: 19px;
+    top: 4em;
+}
+.applevalues2{
+    position: absolute;
+    top: 5em;
+    left: 2em;
+    font-size: 23px;
+    color:black;
+
+}
+.applevalues{
+    color: black;
+    position: relative;
+}
+.mac1{
+    font-size: 40px;
+    margin-left: 3em;
+    margin-top: 2em;
+}
+#bnt1{
+    
+    margin-top: 4em;
+    background-color: black;
+    color: white;
+    width: 8em;
+    height: 3em;
+    border-radius: 18px;
+    
+}
+.mac{
+    margin-left: 13em;
+}
+.image22{
+    margin-left:9em;
+    
+}
+.macstore{
+    margin-top: 10em;
+    
+}
+.Macstore22{
+    margin-left: 12em;
+
+}
+.macstore2{
+    margin-left: 5em;
+}
+.macstore1{
+    font-size: 30px;
+    margin-top: 1em;
+    
+}
+.macstore3{
+    width: 15em;
+}
+.macstore23{
+    margin-left: 20em;
+}
+
+.macstore23{
+    margin-left: 35em;
+    margin-top: -9em;
+}
+.macstore12{
+    font-size: 30px;
+    margin-top: 1em;
+    
+}
+.macstore33{
+    width: 15em;
+}
+.mac1{
+    margin-left: 5em;
+}
+#learn{
+    margin-left: 15em;
+    margin-top: 1em;
+    width: 8em;
+    height: 3em;
+    border-radius: 18px;
+    color: white;
+    background-color: blue;
+    font-size: 12px;
+    
+}
+#buy{
+    margin-left: 24em;
+    margin-top: -3em;
+    width: 8em;
+    height: 3em;
+    border-radius: 18px;
+    color:blue;
+    background-color:white;
+    font-size: 12px; 
+}
+#learn1{
+    margin-left: 2em;
+    margin-top: 9em;
+    width: 8em;
+    height: 3em;
+    border-radius: 18px;
+    color: white;
+    background-color: blue;
+    font-size: 12px;
+    
+}
+#buy1{
+    margin-left: 11em;
+    margin-top: -3em;
+    width: 8em;
+    height: 3em;
+    border-radius: 18px;
+    color:blue;
+    background-color:white;
+    font-size: 12px; 
+}
+.mac2{
+    margin-top: 2em;
+    margin-left: 4em;
+    font-size: 56px;
+}
+.main-section1{
+    background-color: white;
+    width: 600px;
+    height: 260px;
+    position: relative;
+    margin-left: 3em;
+    border-radius: 18px;
+    box-shadow: 10px 14px 22px  black;
+    top:2em;
+    display: flex;
+}
+.main-section{
+    display: flex;
+}
+
+.pay{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.font{
+    position: absolute;
+    font-size: 19px;
+    /* text-align: center; */
+    margin-top: 3em;
+    width: 9em;
+  
+}
+.font1{
+    position: absolute;
+    font-size: 12px;
+    /* text-align: center; */
+    margin-top: 7em;
+    width: 10em;
+  
+}
+.trade{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.font{
+    position: absolute;
+    
+    /* text-align: center; */
+    margin-top: 3em;
+  
+}
+.font1{
+    position: absolute;
+    font-size: 1em;
+    /* text-align: center; */
+    margin-top: 7em;
+
+  
+}
+.main-section2{
+    background-color: white;
+    width: 600px;
+    height: 260px;
+    position: relative;
+    margin-left: 1em;
+    border-radius: 18px;
+    box-shadow: 10px 14px 22px  black;
+    top:2em;
+    display: flex;
+}
+.main-section3{
+    background-color: white;
+    width: 600px;
+    height: 260px;
+    position: relative;
+    margin-left: 1em;
+    border-radius: 18px;
+    box-shadow: 10px 14px 22px  black;
+    top:2em;
+    display: flex;
+}
+.main-section4{
+    background-color: white;
+    width: 600px;
+    height: 260px;
+    position: relative;
+    margin-left: 1em;
+    border-radius: 18px;
+    box-shadow: 10px 14px 22px  black;
+    top:2em;
+    display: flex;
+}
+.main-section5{
+    background-color: white;
+    width: 600px;
+    height: 260px;
+    position: relative;
+    margin-left: 1em;
+    border-radius: 18px;
+    box-shadow: 10px 14px 22px  black;
+    top:2em;
+    display: flex;
+}
+.main-section6{
+    background-color: white;
+    width: 600px;
+    height: 260px;
+    position: relative;
+    margin-left: 1em;
+    border-radius: 18px;
+    box-shadow: 10px 14px 22px  black;
+    top:2em;
+    display: flex;
+}
+.main-section7{
+    background-color: white;
+    width: 600px;
+    height: 260px;
+    position: relative;
+    margin-left: 1em;
+    border-radius: 18px;
+    box-shadow: 10px 14px 22px  black;
+    top:2em;
+    display: flex;
+}
+
+.font2{
+    position: absolute;
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 3em;
+  
+}
+.font3{
+    position: absolute;
+    font-size: 15px;
+    /* text-align: center; */
+    margin-top: 7em;
+  
+}  
+.font4{
+    position: absolute;
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 3em;
+  
+}
+.font5{
+    position: absolute;
+    font-size: 15px;
+    /* text-align: center; */
+    margin-top: 9em;
+  
+} 
+.font6{
+    position: absolute;
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 3em;
+  
+}
+.font7{
+    position: absolute;
+    font-size: 15px;
+    /* text-align: center; */
+    margin-top: 7em;
+  
+}  
+.font8{
+    position: absolute;
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 3em;
+  
+}
+.font9{
+    position: absolute;
+    font-size: 15px;
+    /* text-align: center; */
+    margin-top: 7em;
+  
+}  
+.font11{
+    position: absolute;
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 3em;
+  
+}
+.font12{
+    position: absolute;
+    font-size: 15px;
+    /* text-align: center; */
+    margin-top: 12em;
+  
+} 
+.mac3{
+    margin-top: 4em;
+    margin-left: 1em;
+    font-size: 65px;
+} 
+.mac4{
+    margin-top: 8em;
+    margin-left: 5em;
+    font-size: 26px;
+} 
+.mac6{
+    margin-top: 1em;
+    margin-left: 2em;
+    font-size: 27px;
+    width: 17em;
+}
+.mac5{
+    margin-top: 5em;
+    margin-left: 1em;
+    font-size: 50px;
+} 
+.essencials-1{
+    width: 350px;
+    height: 280px;
+
+}
+.image67{
+margin-left: 3em;
+margin-top: 18em;
+}
+.store-list{
+    text-align: left;
+    margin-left: 5em;
+    list-style: none;
+    margin-top: 3em;
+}
+.store-list-container{
+    display: flex;
+    margin-top: 15px;
+
+}
+.store-list1{
+    list-style: none;
+    margin-left: 5em;
+    margin-top: 3em;
+
+}
+.store-list2{
+    list-style: none;
+    margin-left: 2em;
+    margin-top: 3em;
+
+}
+.text6{
+ margin-left: 1.5em;
+ font-size: 50px;
+ /* margin-top: 3em; */
+}
+.one{
+    margin-top: 2em;
+}
+.dark{
+    font-size: 20px;
+    margin-top: 1em;
+}
+.dark1{
+    font-size: 20px;
+}
+.shop1,.shop2,.shop3{
+    color: gray;
+}
+.fact,.fun{
+    /* font-size: 20px; */
+    margin-top: 1em;
+}
+.fact1,.fun1{
+    font-size: 15px;
+}
+.footer-text{
+        font-size: 10px;
+        text-align: justify;
+        width: 50%;
+        margin-left: 368px;
+        color: rgb(68,68,69);
+        line-height: 13px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgb(68,68,69) ; 
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  */
+        opacity: 0.5;
+        margin-top: 5em;
+}
+.ul{
+        /* position: absolute; */
+        /* position: fixed; */
+        display: flex;
+        font-size: 10px;
+        text-align: justify;
+        width: 50%;
+        margin-left: 368px;
+        color: rgb(68,68,69);
+        /* line-height: 13px; */
+        /* margin-bottom: 20px; */
+        /* border-bottom: 1px solid rgb(68,68,69) ;  */
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  */
+        opacity: 0.5;
+        /* padding: 10px */
+        line-height: 10px;
+}
+ul.no-bullets {
+        /* display: flex; */
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        /* padding: 10px; */
+        margin: 20px;
+        line-height: 25px;
+}
+#list{
+        margin-left: 0px;
+        color: #000000;
+        margin-bottom: 20px;
+}
+ b{
+        color: #000000;
+    
+}
+#image64{
+    width: 700px;
+    height: 500px;
+    margin-left: 2em;
+    margin-top: 19em;
+}
+#image67{
+    width: 700px;
+    height: 500px;
+    margin-left: 3em;
+}
+.Macstore00{
+    margin-left: 12em;
+    position: absolute;
+
+}
+.macstore01{
+    margin-left: 2em;
+    margin-top: -20em;
+    font-size: 32px;
+}
+.macstore02{
+    font-size: 20px;
+    margin-top: 1em;
+}
+.Macstore09{
+    margin-left: 12em;
+    position: absolute;
+
+}
+.macstore03{
+    margin-left: 2em;
+    margin-top: -20em;
+    font-size: 32px;
+    text-align: end;
+    justify-content: end;
+    align-items: end;
+}
+.macstore04{
+    font-size: 20px;
+    margin-top: 1em;
+    /* margin-left:26em; */
+
+ 
+}
+.essentials-1{
+    display: flex;
+}
+.essen{
+    margin-top: 19em;
+}
+    
+    
+    
+
+
+
+

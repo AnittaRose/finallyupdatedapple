@@ -1,0 +1,1223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    
+    color:black;
+    font-size: 12px;
+    text-align: center;
+    padding: 18px;
+
+}
+span{
+    margin: 20px;
+}
+.image{
+    width: 16px;
+    margin-left: 5px;
+
+    
+}
+.Applelogo{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+#applelogo{
+    width: 20%;
+   
+    /* margin-top: 31px; */
+    text-align: center;
+   
+}
+.firststore{
+    color:black;
+    font-size: 50px;
+}
+.firststore{
+/* margin-left: 3em; */
+margin-left: 3em;
+margin-top: 1em;
+}
+/* .image1{
+    width:100px;
+    height:100px;
+}
+.image2{
+    width:100px;
+    height:100px;
+    margin-left: 6em;
+}
+.image3{
+    width:100px;
+    height:100px;
+    margin-left: 6em;
+}
+.image4{
+    width:100px;
+    height:100px;
+    margin-left: 6em;
+}
+.image5{
+    width:100px;
+    height:100px;
+    margin-left: 6em;
+}
+.image6{
+    width:100px;
+    height:100px;
+    margin-left: 6em;
+}
+.image7{
+    width:100px;
+    height:100px;
+    margin-left: 6em;
+}
+.image8{
+    width:100px;
+    height:100px;
+    margin-left: 6em;
+}
+.image9{
+    width:100px;
+    height:100px;
+    margin-left: 6em;
+}
+.image10{
+    width:100px;
+    height:100px;
+    margin-left: 6em;
+}
+.image11{
+    width:100px;
+    height:100px;
+    margin-left: 6em;
+} */
+.section-1{
+    display: flex;
+    overflow: auto;
+    margin-top: 7em;
+    margin-left: 7em;
+}
+.image1{
+    width: 9em;
+}
+.secondstore{
+    color:black;
+    font-size: 35px;
+}
+.secondstore{
+/* margin-left: 3em; */
+margin-left: 4em;
+margin-top: 1em;
+}
+.section-2{
+    display: flex;
+    overflow: auto;
+    margin-top: 3em;
+    margin-left: 8em;
+}
+.image2{
+    width: 25em;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.thirdstore{
+    color:black;
+    font-size: 35px;
+}
+.thirdstore{
+/* margin-left: 3em; */
+margin-left: 4em;
+margin-top: 1em;
+}
+.section-3{
+    display: flex;
+    overflow: auto;
+    margin-top: 3em;
+    margin-left: 8em;
+    position: relative;
+    /* box-shadow: 10px 14px 22px  black; */
+    /* background-color: black; */
+}
+.image3{
+    width:480px;
+    height:500px;
+    border-radius: 18px;
+    flex-direction: column;
+    /* margin-left: 2em; */
+    box-shadow: 10px 14px 22px  black;
+    /* margin-left: 10%; */
+    /* background-color: black; */
+}
+
+.uppersection{
+    position: relative;
+    border-radius: 2em;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.uppersection1{
+    color: black;
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 10%;
+    font-size: 25px;
+    font-weight: 600;
+}
+.image4{
+    width: 28.2352941176rem;
+    height: 14.70588235295rem;
+    box-shadow: 2px 4px 17px #00000014;
+    border-radius: 2em;
+}
+.personal{
+    top: 1.5em;
+}
+.lowersection1{
+position: absolute;
+font-size: 24px;
+font-weight: 600%;
+top: 3em;
+left: 2em;
+}
+.lowersection2{
+    top: 4em;
+}
+.lowersection3{
+    top: 5em;
+}
+.image5{
+    width: 28.2352941176rem;
+    height: 14.70588235295rem;
+    box-shadow: 2px 4px 17px #00000014;
+    border-radius: 2em;  
+}
+.section-2
+{
+    position: relative;
+}
+.iphone1{
+    position: absolute;
+    color: aliceblue;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 2em;
+}
+.iphone2{
+    position: absolute;
+    color: white;
+    margin-left: 1em;
+    font-size: 30px;
+    margin-top: 2em;
+   
+}
+.iphone3{
+    position: absolute;
+    color: aliceblue;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 5em;
+}
+.vision1{
+    position: absolute;
+    color: black;
+    /* margin-left: 2em; */
+    font-size: 19px;
+    margin-top: 2em;
+}
+.vision2{
+    position: absolute;
+    color: black;
+    /* margin-left: 1em; */
+    font-size: 30px;
+    margin-top: 2em;
+}
+.vision3{
+    position: absolute;
+    /* color: black;
+    margin-left: 2em; */
+    font-size: 19px;
+    margin-top: 5em;
+}
+.ipad1{
+    position: absolute;
+    color: aliceblue;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 2em;
+}
+.ipad2{
+    position: absolute;
+    color: aliceblue;
+    margin-left: 1em;
+    font-size: 30px;
+    margin-top: 2em;
+}
+.ipad3{
+    position: absolute;
+    color: aliceblue;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 5em;
+}
+.watch1{
+    position: absolute;
+    color: aliceblue;
+    /* margin-left: 4em; */
+    font-size: 15px;
+    margin-top: 3em;
+    width: 18em ;
+}
+.watch2{
+    position: absolute;
+    color: aliceblue;
+    /* margin-left: 1em; */
+    font-size: 30px;
+    margin-top: 2em;
+    width: 9em;
+}
+.watch3{
+    position: absolute;
+    color: aliceblue;
+    /* margin-left: 2em; */
+    font-size: 18px;
+    margin-top: 5em;
+}
+.mac1{
+    position: absolute;
+    color: black;
+    /* margin-left: 2em; */
+    font-size: 15px;
+    margin-top: 5em;
+    width: 9em;
+}
+.mac2{
+    position: absolute;
+    color: black;
+    /* margin-left: 1em; */
+    font-size: 30px;
+    margin-top: 3em;
+    width: 11em;
+}
+.mac3{
+    position: absolute;
+    color: black;
+    /* margin-left: 2em; */
+    font-size: 16px;
+    margin-top: 8em;
+    width: 16em;
+}
+.oldpad1{
+    position: absolute;
+    color: black;
+    
+    font-size: 19px;
+    margin-top: 2em;
+    width: 5em;
+}
+.oldpad2{
+    position: absolute;
+    /* color: black;
+    margin-left: 1em; */
+    font-size: 28px;
+    margin-top: 2em;
+    width: 6em;
+}
+.oldpad3{
+    position: absolute;
+    color: black;
+    /* margin-left: 2em; */
+    font-size: 19px;
+    margin-top: 5em;
+    width: 16em;
+    
+}
+.pen1{
+    position: absolute;
+    color: aliceblue;
+    /* margin-left: 2em; */
+    font-size: 19px;
+    margin-top: 3em;
+    width: 10em;
+}
+.pen2{
+    position: absolute;
+    color: aliceblue;
+    /* margin-left: 1em; */
+    font-size: 30px;
+    margin-top: 3em;
+    width: 14em;
+}
+.pen3{
+    position: absolute;
+    color: aliceblue;
+    /* margin-left: 2em; */
+    font-size: 19px;
+    margin-top:9em;
+}
+.series1{
+    position: absolute;
+    color: white;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 2em;
+    width: 12em;
+}
+.series2{
+    position: absolute;
+    color: white;
+    margin-left: 1em;
+    font-size: 30px;
+    margin-top: 2em;
+    width: 11em;
+}
+.series3{
+    position: absolute;
+    color: white;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 7em;
+    width: 14em;
+}
+.roseiphone1{
+    position: absolute;
+    color:black;
+    margin-left: 2em;
+    font-size: 18px;
+    margin-top: 2em;
+    width: 6em;
+}
+.roseiphone2{
+    position: absolute;
+    color:black;
+    margin-left: 1em;
+    font-size: 27px;
+    margin-top: 2em;
+}
+.roseiphone3{
+    position: absolute;
+    color:black;
+    margin-left: 2em;
+    font-size: 18px;
+    margin-top: 5em;
+    width: 15em;
+}
+.newwatch1{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 2em;
+    width: 12em;
+}
+.newwatch2{
+    position: absolute;
+    color: black;
+    margin-left: 1em;
+    font-size: 30px;
+    margin-top: 2em;
+    width: 10em;
+}
+.newwatch3{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 5em;
+    width: 15em;
+}
+.newmac1{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 2em;
+    width: 8em;
+}
+.newmac2{
+    position: absolute;
+    color: black;
+    margin-left: 1em;
+    font-size: 30px;
+    margin-top: 2em;
+    width: 13em;
+}
+.newmac3{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 5em;
+    width: 16em;
+}
+.morewatch1{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 2em;
+    width: 9em;
+}
+.morewatch2{
+    position: absolute;
+    color: black;
+    margin-left: 1em;
+    font-size: 30px;
+    margin-top: 2em;
+    width: 9em;
+}
+.morewatch3{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 5em;
+    width: 15em;
+}
+.greenman1{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 20px;
+    margin-top: 3em;
+}
+.greenman2{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 20px;
+    margin-top: 5em; 
+}
+    
+
+.handimg1{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 20px;
+    margin-top: 3em;
+}
+
+.handimg2{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 20px;
+    margin-top: 5em; 
+}
+.pepole1{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 20px;
+    margin-top: 2em;
+}
+.pepole2{
+    position: absolute;
+    color: black;
+    margin-left: 1em;
+    font-size: 30px;
+    margin-top: 2em; 
+}
+.pepole3{
+    position: absolute;
+    color:black;
+    margin-left: 2em;
+    font-size: 20px;
+    margin-top: 7em; 
+}
+.apps,.last1{
+    /* position: absolute; */
+    color: black;
+    /* margin-left: 1em; */
+    font-size: 30px;
+    /* margin-top: 3em; */
+}
+.apps,.last2{
+    /* position: absolute; */
+    color: black;
+    margin-left: 1em;
+    font-size: 50px;
+    /* margin-top: 3em; */
+}
+
+.main-section1{
+    background-color: white;
+    width: 313px;
+    height: 240px;
+    position: relative;
+    margin-left: 8em;
+    border-radius: 18px;
+    box-shadow: 10px 14px 22px  black;
+    top:2em;
+    display: flex;
+
+}
+.van{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.font{
+    position: absolute;
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 4em;
+  
+}
+.main-section2{
+    background-color: white;
+    width: 313px;
+    height: 240px;
+    position: relative;
+    margin-left: 2em;
+    border-radius: 18px;
+    box-shadow: 10px 14px 22px  black;
+    top:2em;
+    
+}
+.connection{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    overflow: auto;
+}
+.font2{
+    position: absolute;
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 4em;
+  
+}
+.main-section{
+    display: flex;
+}
+.main-section3{
+    background-color: white;
+    width: 313px;
+    height: 240px;
+    position: relative;
+    margin-left: 2em;
+    border-radius: 18px;
+    box-shadow: 10px 14px 22px  black;
+    top:2em;
+    
+}
+.magneticcard{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    overflow: auto;
+}
+.font3{
+    position: absolute;
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 4em;
+  
+}
+.main-section4{
+    background-color: white;
+    width: 313px;
+    height: 240px;
+    position: relative;
+    margin-left: 2em;
+    border-radius: 18px;
+    box-shadow: 10px 14px 22px  black;
+    top:2em;
+    
+}
+.applock{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    overflow: auto;
+}
+.font4{
+    position: absolute;
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 4em;
+  
+}
+.main-section5{
+    background-color: white;
+    width: 313px;
+    height: 240px;
+    position: relative;
+    margin-left: 2em;
+    border-radius: 18px;
+    box-shadow: 10px 14px 22px  black;
+    top:2em;
+    
+}
+.smile{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    overflow: auto;
+}
+.font5{
+    position: absolute;
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 4em;
+  
+}
+.main-section6{
+    background-color: white;
+    width: 313px;
+    height: 240px;
+    position: relative;
+    margin-left: 2em;
+    border-radius: 18px;
+    box-shadow: 10px 14px 22px  black;
+    top:2em;
+    
+}
+.redapple{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    overflow: auto;
+}
+.font6{
+    position: absolute;
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 4em;
+  
+}
+.fourthstore{
+    color:black;
+    font-size: 30px;
+    width: 25em;
+}
+.fourthstore{
+/* margin-left: 3em; */
+margin-left: 5em;
+margin-top: 1em;
+}
+.fifthstore{
+    color:black;
+    font-size: 30px;
+    width: 25em;
+}
+.fifthstore{
+/* margin-left: 3em; */
+margin-left: 5em;
+margin-top: 3em;
+}
+.section-5{
+    display: flex;
+    overflow: auto;
+    margin-top: 3em;
+    margin-left: 8em;
+    position: relative;
+}
+.colorfullapple{
+    width:480px;
+    height:500px;
+    border-radius: 18px;
+    flex-direction: column;
+    /* margin-left: 2em; */
+    box-shadow: 10px 14px 22px  black;
+    margin-left: 1%;
+    /* background-color: black; */
+}
+.colorful1{
+    position: absolute;
+    color:black;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 3em;
+}
+.coloful2{
+    position: absolute;
+    color: black;
+    margin-left: 1em;
+    font-size: 30px;
+    margin-top: 3em;
+}
+.pencil{
+    width:480px;
+    height:500px;
+    border-radius: 18px;
+    flex-direction: column;
+    /* margin-left: 2em; */
+    box-shadow: 10px 14px 22px  black;
+    margin-left: 1%;
+    /* background-color: black; */
+}
+.pencil1{
+    position: absolute;
+    color:black;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 18em;
+}
+.pencil2{
+    position: absolute;
+    color: black;
+    margin-left: 1em;
+    font-size: 30px;
+    margin-top: 12em;
+}
+.pencil3{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 23em;
+}
+.clock{
+    width:480px;
+    height:500px;
+    border-radius: 18px;
+    flex-direction: column;
+    /* margin-left: 2em; */
+    box-shadow: 10px 14px 22px  black;
+    margin-left: 1%;
+    /* background-color: black; */
+}
+.clock1{
+    position: absolute;
+    color:black;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 18em;
+}
+.clock2{
+    position: absolute;
+    color: black;
+    margin-left: 1em;
+    font-size: 20px;
+    margin-top: 23em;
+}
+.clock3{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 19px;
+    margin-top: 23em;
+}
+.keychain{
+    width:480px;
+    height:500px;
+    border-radius: 18px;
+    flex-direction: column;
+    /* margin-left: 2em; */
+    box-shadow: 10px 14px 22px  black;
+    margin-left: 1%;
+    /* background-color: black; */
+}
+
+.keychain2{
+    position: absolute;
+    color: black;
+    margin-left: 1em;
+    font-size: 20px;
+    margin-top: 18em;
+    width:12em;
+}
+.keychain3{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 17px;
+    margin-top: 27em;
+}
+.magickeyboard{
+    width:480px;
+    height:500px;
+    border-radius: 18px;
+    flex-direction: column;
+    /* margin-left: 2em; */
+    box-shadow: 10px 14px 22px  black;
+    margin-left: 1%;
+    /* background-color: black; */
+}
+.magickeyboard1{
+    position: absolute;
+    color:black;
+    margin-left: 1em;
+    font-size: 19px;
+    margin-top: 18em;
+    width: 8em;
+}
+.magickeyboard2{
+    position: absolute;
+    color: black;
+    margin-left: 1em;
+    font-size: 20px;
+    margin-top: 18em;
+    width: 15em;
+}
+.magickeyboard3{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 17px;
+    margin-top: 27em;
+}
+.blueloop{
+    width:480px;
+    height:500px;
+    border-radius: 18px;
+    flex-direction: column;
+    /* margin-left: 2em; */
+    box-shadow: 10px 14px 22px  black;
+    margin-left: 1%;
+    /* background-color: black; */
+}
+
+.blueloop2{
+    position: absolute;
+    color: black;
+    margin-left: 1em;
+    font-size: 20px;
+    margin-top: 18em;
+    width:  9em;
+}
+.blueloop3{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 17px;
+    margin-top: 27em;
+}
+.whitephone{
+    width:480px;
+    height:500px;
+    border-radius: 18px;
+    flex-direction: column;
+    /* margin-left: 2em; */
+    box-shadow: 10px 14px 22px  black;
+    margin-left: 1%;
+    /* background-color: black; */
+}
+
+.whitephone2{
+    position: absolute;
+    color: black;
+    margin-left: 1em;
+    font-size: 20px;
+    margin-top: 18em;
+    width: 15em;
+}
+.whitephone3{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 17px;
+    margin-top: 27em;
+}
+.tv{
+    width:480px;
+    height:500px;
+    border-radius: 18px;
+    flex-direction: column;
+    /* margin-left: 2em; */
+    box-shadow: 10px 14px 22px  black;
+    margin-left: 1%;
+    /* background-color: black; */
+}
+
+.tv2{
+    position: absolute;
+    color: black;
+    margin-left: 1em;
+    font-size: 20px;
+    margin-top: 18em;
+    width: 15em;
+}
+.tv3{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 17px;
+    margin-top: 27em;
+}
+.access{
+    width:480px;
+    height:500px;
+    border-radius: 18px;
+    flex-direction: column;
+    /* margin-left: 2em; */
+    box-shadow: 10px 14px 22px  black;
+    margin-left: 1%;
+    /* background-color: black; */
+}
+.access1{
+    position: absolute;
+    color:black;
+    margin-left: 1em;
+    font-size: 19px;
+    margin-top: 18em;
+    width: 8em;
+}
+.access2{
+    position: absolute;
+    color: black;
+    margin-left: 1em;
+    font-size: 20px;
+    margin-top: 18em;
+}
+.access3{
+    position: absolute;
+    color: black;
+    margin-left: 2em;
+    font-size: 17px;
+    margin-top: 27em;
+}
+.sixthstore{
+    color:black;
+    font-size: 30px;
+    width: 29em;
+}
+.sixthstore{
+/* margin-left: 3em; */
+margin-left: 5em;
+margin-top: 3em;
+}
+.pictures{
+    display: flex;
+    overflow: auto;
+}
+
+.picture1-img{
+    width: 400px;
+    /* height: 500px; */
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: 7px 15px 22px black;
+    margin-top: 2em;
+    margin-left: 8em;
+    position: relative;
+}
+.homepod{
+    width: 400px;
+    height: 500px;
+}
+.applefont{
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    font-size: 30px;
+    color: black;
+    font-weight: 550;
+
+}
+.applefont1{
+    top: 3em;
+}
+.included{
+    position: absolute;
+    top: 7em;
+    left: 1.5em;
+    color: grey;
+    font-size: 20px;
+}
+.beats{
+    top: 8em;
+}
+.picture1-img1{
+    width: 313px;
+    height: 500px;
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: 7px 15px 22px black;
+    margin-top: 2em;
+    margin-left: 2em;
+    position: relative;
+}
+.airpods{
+    width: 270px;
+    height: 300px;
+    margin-top: 3em;
+    margin-left: 1em;
+}
+.free{
+    position: absolute;
+    color: brown;
+    top: 22em;
+    left: 1em;
+}
+.airpods1{
+    position: absolute;
+    top: 19em;
+    left: .8em;
+    font-size: 20px;
+    font-weight: 600;
+}
+.chargingcase{
+    position: absolute;
+    top: 20em;
+    left: .8em;
+    font-size: 20px;
+    font-weight: 600;
+}
+.dollar{
+    position: absolute;
+    color: grey;
+    top: 28em;
+    left: 1.6em;
+}
+.seventhstore{
+    color:black;
+    font-size: 30px;
+    width: 29em;
+}
+.seventhstore{
+/* margin-left: 3em; */
+margin-left: 5em;
+margin-top: 3em;
+width: 31em;
+}
+.relative{
+    display: flex;
+    overflow: auto;
+}
+.relative1-img{
+    width: 484px;
+    /* height: 505px; */
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: 7px 15px 22px black;
+    margin-top: 2em;
+    margin-left: 3em;
+    position: relative;
+}
+.argylle{
+    width: 484px;
+    height: 505px;
+}
+.realfont{
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    font-size: 25px;
+    color:white;
+    font-weight: 550;
+
+}
+.realfont1{
+    top: 3em;
+    font: size 30px;
+    color: white;
+}
+.relative1-img1{
+    width: 484px;
+    height: 505px;
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: 7px 15px 22px black;
+    margin-top: 2em;
+    margin-left: 3em;
+    position: relative;
+}
+.realfont2{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 2em;
+}
+.realfont3{
+    color: black;
+    font-size: 20px;
+    margin-t0P: 1em;
+}
+.realfont4{
+    color: black;
+    font-size: 15px;
+    margin-top:4em;
+    margin-left: 2em;
+}
+.eighthstore{
+    color:black;
+    font-size: 30px;
+    width: 29em;
+}
+.eighthstore{
+/* margin-left: 3em; */
+margin-left: 5em;
+margin-top: 3em;
+width: 31em;
+}
+#bnt1{
+    
+    margin-top: 4em;
+    border-color: black;
+    color: black;
+    width: 8em;
+    height: 3em;
+    border-radius: 18px;
+    
+}
+.asd{
+    margin-left: 8em;
+}
+.footer-text{
+    font-size: 10px;
+    text-align: justify;
+    width: 50%;
+    margin-left: 368px;
+    color: rgb(68,68,69);
+    line-height: 13px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(68,68,69) ; 
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  */
+    opacity: 0.5;
+    margin-top: 5em;
+}
+.ul{
+    /* position: absolute; */
+    /* position: fixed; */
+    display: flex;
+    font-size: 10px;
+    text-align: justify;
+    width: 50%;
+    margin-left: 368px;
+    color: rgb(68,68,69);
+    /* line-height: 13px; */
+    /* margin-bottom: 20px; */
+    /* border-bottom: 1px solid rgb(68,68,69) ;  */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  */
+    opacity: 0.5;
+    /* padding: 10px */
+    line-height: 10px;
+}
+ul.no-bullets {
+    /* display: flex; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* padding: 10px; */
+    margin: 20px;
+    line-height: 25px;
+}
+#list{
+    margin-left: 0px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+b{
+    color: #000000;
+
+}
+
+
+
+
+
+
+
+
+
+

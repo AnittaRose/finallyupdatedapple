@@ -1,0 +1,152 @@
+/*
+    Store Home CSS
+    ===============================================
+*/
+
+html.no-touch .rf-cards-scroller .paddlenav-arrow {
+    transition: transform 0.5s ease-in, opacity 0.7s cubic-bezier(0.15, 0, 0.2, 1) 0.1s;
+}
+
+html.no-touch .rf-cards-scroller:hover .paddlenav-arrow:not([disabled]) {
+    transition-duration: 0.5s;
+}
+
+html.no-touch .rf-cards-scroller:hover .paddlenav-arrow:hover:not([disabled]) {
+    transition-duration: 0.5s;
+}
+
+html.no-touch .rf-cards-scroller:hover .paddlenav-arrow:active:not([disabled]) {
+    transition-duration: 0.5s;
+}
+
+html.as-keyboarduser .rf-cards-scroller .paddlenav-arrow:focus {
+    transition-duration: 0.5s;
+}
+
+html.as-keyboarduser .rf-cards-scroller .paddlenav-arrow:active {
+    transition-duration: 0.5s;
+}
+
+.rf-ccard-withvideo .rf-ccard-content-desc {
+    width: auto;
+    align-self: center;
+}
+
+.jp .rf-ccard-playcta-chevron {
+    padding-top: 4px;
+}
+
+.rf-ccard-withvideo div:empty {
+    height: 1px;
+}
+
+/*
+ * rdar://125216885 (STAGE: AOS: CCI: Store& Step0: MY_Onshore: Click on learn more> link in banner finance overlay displaying which is distorted, instead of going to FLP)
+ * Adding temporarily to fix the finance installments overlay content issue for MY Onshore
+*/
+
+.my .as-compareplansoverlay-content {
+    text-align: center;
+}
+
+@media only screen and (max-width: 734px) and (max-device-width: 736px) {
+    .my .as-compareplansoverlay-content {
+        width: 100%;
+    }
+}
+
+.my .as-compareplans-heading {
+    font-size: 14px;
+    line-height: 1.4285914286;
+    letter-spacing: -0.016em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+        "Arial", sans-serif;
+    font-weight: 600;
+    padding: 4px 0 22px;
+    text-align: center;
+}
+
+
+.my .as-compareplans-tablewrapper {
+    margin-top: 14px;
+}
+
+.my .as-compareplansoverlay-content .as-compareplans-data {
+    padding-block: 21px;
+}
+
+@media only screen and (max-width: 734px) and (max-device-width: 736px) {
+    .my .as-compareplansoverlay-content .as-compareplans-data {
+        white-space: unset;
+    }
+}
+
+.my .as-compareplans-terms-message {
+    text-align: center;
+}
+
+.my .as-compareplans-information {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1.3333733333;
+    text-align: left;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.my .as-compareplansoverlay-content .as-compareplans-first,
+.my .as-compareplansoverlay-content .as-compareplans-heading:first-child {
+    position: unset;
+    background-clip: unset;
+    width: auto;
+}
+
+.my .as-compareplans-wrapper {
+    overflow: unset;
+    padding-bottom: 20px;
+}
+
+.my .as-compareplans-datatable {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.my .as-compareplans-terms-list {
+    width: 100%;
+    list-style: none;
+    margin: 23px 0 54px;
+}
+
+@media only screen and (max-width: 734px) and (max-device-width: 736px) {
+    .my .as-compareplans-terms-list {
+        padding: 0 20px;
+        text-align: left;
+    }
+}
+
+.my .as-compareplans-terms-listitem {
+    position: relative;
+    display: inline-block;
+    margin-inline-end: 43px;
+}
+
+.my .as-compareplans-terms-listitem::before {
+    content: '.';
+    font-size: 30px;
+    position: absolute;
+    top: -17px;
+    left: -13px;
+}
+
+.my .as-compareplans-terms-listitem:last-child {
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 734px) and (max-device-width: 736px) {
+    .my .as-compareplans-terms-listitem {
+        display: block;
+    }
+}
