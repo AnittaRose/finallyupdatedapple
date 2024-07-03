@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image1{
+    width: 15px;
+    height: 15px;
+}
+.nav-item{
+    font-size: 12px;
+    
+}
+.image2{
+    width: 38px;
+    height: 56px;
+}
+.first-images{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 2em;
+}

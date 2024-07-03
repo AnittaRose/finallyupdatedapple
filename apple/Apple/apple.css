@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 .container{
     background-color: rgb(24, 24, 24);
@@ -8,20 +8,76 @@
     font-size: 12px;
     text-align: center;
     padding: 18px;
-
-}
-a{
-    text-decoration: none;
-    color: white;
-}
-span{
-    margin: 20px;
+    
 }
 .image{
     width: 16px;
-    margin-left: 5px;
-
     
+}
+.list-container{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.store-section-list{
+    list-style: none;
+    text-align: left;
+    margin-left: 7em;
+    padding-top: 1em;
+    padding: 5px;
+    font-size: 25px;
+}
+.hidden-section{
+    /* position: fixed; */
+    overflow:hidden ; 
+    height: 0px;
+    opacity: 0;
+    transition:  0.5s ease-in;
+
+}
+.store-section-list1{
+    list-style: none;
+    text-align: left;
+    margin-left: 9em;
+    padding-top: 1em;
+    font-size: 12px;
+    padding: 10px;
+}
+ a{
+    color: inherit;
+    text-decoration: none;
+ }
+.text:hover ~ .hidden-store-section{
+    height: 25rem;
+    opacity: 1;
+
+}
+
+@media only screen and (max-width: 786px){
+    .text{
+        display: none;
+    }
+    .section4-main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .ul{
+        display: flex;
+        font-size: 10px;
+        text-align: justify;
+        width: 50%;
+        margin-left: 100px;
+        color: rgb(34, 34, 34);
+    }
+}
+
+
+
+
+
+
+.text{
+   margin: 15px;
 }
 .Applelogo{
     background-color: black;
@@ -31,18 +87,12 @@ span{
 }
 #applelogo{
     width: 20%;
-   
-    /* margin-top: 31px; */
     text-align: center;
-   
 }
 .wvdc{
     color: white;
     font-size: 47px;
     text-align: center;
-    /* margin-left: 230px; */
-    /* margin-top: 50px; */
-    
 }
 #wvdc{
     width: 45px;
@@ -60,11 +110,9 @@ button{
     font-size: 15px;
     padding: 10px;
     text-align: center;
-    margin-right: 16px;
     border-radius: 20px;
     border:2px solid blue;
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 .section2{
     text-align:center;
@@ -79,16 +127,34 @@ button{
     font-size:30px;
     background-color:black;
     color:white;
+    position: relative;
+    top: 1em;
+    
 }
-.buy{
+.two{
+    text-align: center;
+    font-size:50px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 0.5em;
+}
+.bnt{
     background-color:black;
     color:white;
     border:1px solid blue;
     width:60px;
+    position: relative;
 }
 #img{
     width: 80vw;
-    margin-left: 3em;
+    height: 70vh;
+  
+}
+.buttons-1{
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
 }
 .section3{
     text-align:center;
@@ -97,357 +163,109 @@ button{
     color:white;
     margin-top:10px;
 }
-.two{
-    text-align:center;
-    font-size:30px;
-    background-color:black;
-    color:white;
+#img2{
+    width:90vw;
+    height: 70vh;
     margin-top: 1em;
 }
-#img2{
-    width: 75%;
-    margin-top: 2em;
-}
-.subhead-3{
-    padding: 20px;
-    position: absolute;
-    text-align:center;
-    margin-left: 7em;
-}
-.section3 p{
-    margin-bottom: 10px;
-}
 .sub{
-    margin-top: 10px;
-}
-.imagecontainer,.imagecontainer1{
-    position: relative;
-    /* display: inline; */
     display: flex;
-
+    justify-content: center;
+    font-size: 50px;
 }
-.imagecontainer img{
-    /* position:fixed; */
-    width: 50vw;
-    text-align: left;
-    padding-right: 5px;
-
-}
-.text{
-    position:absolute;
-    color: white;
-    font-size: 40px;
-    margin-left: 16rem;
-    top: 328px;
-}
-.section4{
-    width: 100vw;
+.mid{
     display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.section4-main-container{
+    display: flex;
+    /* width: 100%; */
+    position:relative;
     margin: 10px;
+    /* padding: 10px; */
+
 }
-.imagecontainer-2img img{
-    width: 50vw;
-    position: absolute;
-    padding-left: 5px;
-    /* position: fixed; */
-    display: flex;
+.first-image{
+    width:100%;
+    height: 580px;
+    position:relative;
+
+}
+.second-image{
+    width: 100%;
+    height: 580px;
+    position:relative;
     
 }
-.text1{
+.first-image-main{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-image-text{
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 100px;
     color: white;
-    font-size: 20px;
-    margin-left: 18rem;
-    top: 19em;
 }
-.but-stuu{
+.second-image-text{
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* top: 100px; */
     color: white;
-    font-size: 20px;
-    margin-left: 20rem;
-    top: 20em;
+    z-index: 1;
+    top:4em;
 }
-
-.text2{
+.second-image-main{
     position: relative;
-    color: white;
-    font-size: 45px;
-    margin-left: 18rem;
-    left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
 }
-.text2-apple{
-    position: relative;
-    color: white;
-    font-size: 45px;
-    margin-left:9rem;
-    left: 1em;
-}
-.imagecontainer-2img button{
-    position: relative;
-    color: white;
-    font-size: 20px;
-    /* margin-left: 10rem; */
-    /* top: 20em; */
-}
-.text3{
-        position: relative;
-        color: white;
-        font-size: 20px;
-        /* margin-left: 18rem; */
-        /* bottom: 20em; */
-        left: 14em;
-} 
-.text3-apple{
-    position: relative;
-    color: white;
-    font-size: 20px;
-    /* margin-left: 18rem; */
-    /* bottom: 20em; */
-    left: 7em;
-} 
-.but{
-    margin-left: 17em;
-}
-.text4{
-    position:absolute;
-    color: rgb(0, 0, 0);
+.text2,.txt{
     font-size: 40px;
-    margin-left: 18rem;
-    top: 328px;
 }
-.text5{
+.text3,.text1{
+    font-size:25px   ;
+}
+.first-image-text-vison{
     position: absolute;
-    color:black;
-    font-size: 20px;
-    margin-left: 14rem;
-    top: 19em;
-    
-}
-
-.but2{
-    text-align: center;
-    margin-left: 15em;
-    
-}
-.learn{
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
     color: white;
-    font-size: 15px;
-    padding: 10px;
-    text-align: center;
-    /* margin-right: 16px; */
-    border-radius: 20px;
-    border:2px solid blue;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
-.learn-buy{
-    margin-left: 30px;
-}
-.section4{
-    width: 100vw;
+.img2-container,.img3-container{
     display: flex;
-    margin: 10px;
-}
-.img2-container{
-    display: flex;
-    overflow: auto;
-    
-}
-.img3-container{
-    display:flex;
     overflow: auto;
 }
 .footer-section{
-    font-size: 10px;
-    text-align: justify;
-    line-height: 13px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.vision,.vision1{
-    margin: 20px;
-    /* display: flex; */
-    position: absolute;
-    margin-left: 30px;
-    margin-top: 25em;
-}
-.learn{
-    /* right: 30px; */
-    margin-bottom: 20px;
-    margin-left: 230px;
-}
-.image1{
-    width: 10vw;
-    height: 10px;
-}
-#blackapple{
-    width: 50px;
-    height: 50px;
 
-}
-.blackapple{
-    position: absolute;
-    margin-left: 18em;
-    /* margin-left: ; */
-    bottom:  26em;
-}
-.card1{
-    position:absolute;
-    color: rgb(0, 0, 0);
-    font-size: 40px;
-    margin-left: 21rem;
-    top: 25 px;
-}
-.card2{
-    position: absolute;
-    color:black;
-    font-size: 20px;
-    margin-left: 14rem;
-    top: 3em;
-    
-}
-.vision1{
-    bottom: 18em;
-    margin-left: 18em;
-}
-.text2-apple-1{
-    position: absolute;
-    color: rgb(0, 0, 0);
-    font-size: 45px;
-    margin-left:17rem;
-    margin-top: 1em;
-}
-.text3-apple-2{
-    position: absolute;
-    color: rgb(0, 0, 0);
-    font-size: 24px;
-    margin-left:4rem;
-    /* left: 1em; */
-    margin-top: 5em;
-}
-.btn{
-    text-align: center;
-    margin-left: 18em;
-    margin-top: 10em;
-}
-.store-list{
-    text-align: left;
-    margin-left: 19em;
-    list-style: none;
-}
-.store-list-container{
-    display: flex;
-    margin-top: 15px;
-}
-.store-list1{
-    list-style: none;
-    margin-left: 5em;
-}
-.store-list2{
-    list-style: none;
-    margin-left: 5em;
-}
-.hiden-store-section1{
-    height: 0px;
-    opacity: 0;
-    overflow: hidden;
-    transition: height 0.9s ease-in,opacity 0.9s ease-in-out;
-    ;
-}
-.store:hover ~ .hidden-store-section1{
-    height: 20em;
-    opacity: 1;
-}
-.hidden-mac-section1{
-    height: 0px;
-    opacity: 0;
-    overflow: hidden;
-    transition: height 0.9s ease-in,opacity 0.9s ease-in-out;
-}
-.mac:hover ~ .hidden-mac-section1{
-    height: 20em;
-    opacity: 1;
-}
-.mac-list{
-    text-align: left;
-    margin-left: 19em;
-    list-style: none;
-}
-.mac-list-container{
-    display: flex;
-    margin-top: 15px;
-}
-.mac-list1{
-    list-style: none;
-    margin-left: 5em;
-    text-align: left;
-}
-.mac-list2{
-    list-style: none;
-    margin-left: 5em;
-    text-align: left;
-}
-.ipad-list1{
-    list-style: none;
-    margin-left: 5em;
-    text-align: left;
-}
-.ipad-list2{
-    list-style: none;
-    margin-left: 5em;
-    text-align: left;
-}
-.ipad-list{
-    text-align: left;
-    margin-left: 19em;
-    list-style: none;
-}
-.ipad-list-container{
-    display: flex;
-    margin-top: 15px;
-}.hidden-ipad-section1{
-    height: 0px;
-    opacity: 0;
-    overflow: hidden;
-    transition: height 0.9s ease-in,opacity 0.9s ease-in-out;
-}
-.ipad:hover ~ .hidden-ipad-section1{
-    height: 20em;
-    opacity: 1;
-}
-.iphone-list1{
-    list-style: none;
-    margin-left: 5em;
-    text-align: left;
-}
-.iphone-list2{
-    list-style: none;
-    margin-left: 5em;
-    text-align: left;
-}
-.iphone-list{
-    text-align: left;
-    margin-left: 19em;
-    list-style: none;
-}
-.iphone-list-container{
-    display: flex;
-    margin-top: 15px;
-}.hidden-iphone-section1{
-    height: 0px;
-    opacity: 0;
-    overflow: hidden;
-    transition: height 0.9s ease-in,opacity 0.9s ease-in-out;
-}
-.iphone:hover ~ .hidden-iphone-section1{
-    height: 20em;
-    opacity: 1;
-}
 .footer-text{
     font-size: 10px;
     text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
-    margin-left: 368px;
+    /* margin-left: 368px; */
     color: rgb(31, 31, 31);
     line-height: 13px;
     padding-bottom: 15px;
@@ -461,10 +279,12 @@ button{
     /* position: absolute; */
     /* position: fixed; */
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 10px;
     text-align: justify;
-    width: 50%;
-    margin-left: 368px;
+    
+    /* margin-left: 368px; */
     color: rgb(34, 34, 34);
     /* line-height: 13px; */
     /* margin-bottom: 20px; */
@@ -488,3 +308,4 @@ ul.no-bullets {
     color: #000000;
     margin-bottom: 20px;
 }
+
